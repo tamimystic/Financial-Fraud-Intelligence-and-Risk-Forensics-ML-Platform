@@ -1,0 +1,28 @@
+# Large raw CSV files exceeding GitHub 100MB limit (parquet is tracked)
+data/raw/*.csv
+*.csv.gz
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Model cache & logs
+*.log
+catboost_info/
+*/catboost_info/*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
