@@ -1,0 +1,96 @@
+{
+  "total_raw_features": 30,
+  "total_engineered_features": 53,
+  "new_features_created": 22,
+  "temporal_splits": {
+    "train_samples": 199364,
+    "val_samples": 42721,
+    "test_samples": 42722,
+    "train_fraud_count": 384,
+    "val_fraud_count": 56,
+    "test_fraud_count": 52
+  },
+  "top_5_engineered_features": [
+    {
+      "Engineered Feature": "V14_Squared",
+      "KS Separation D": 0.8369515256977251,
+      "Point-Biserial r": 0.5919493575234157
+    },
+    {
+      "Engineered Feature": "V14_x_V4",
+      "KS Separation D": 0.8368578186249874,
+      "Point-Biserial r": -0.5988355713593335
+    },
+    {
+      "Engineered Feature": "V3_x_V14",
+      "KS Separation D": 0.8278131491439676,
+      "Point-Biserial r": 0.5665484050803743
+    },
+    {
+      "Engineered Feature": "V16_x_V17",
+      "KS Separation D": 0.8275701389586892,
+      "Point-Biserial r": 0.5912526974631646
+    },
+    {
+      "Engineered Feature": "iForest_Anomaly_Score",
+      "KS Separation D": 0.8261899227728079,
+      "Point-Biserial r": 0.2480728602196089
+    }
+  ],
+  "feature_column_names": [
+    "Time",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "Amount",
+    "Hour_of_Day",
+    "Time_Sin",
+    "Time_Cos",
+    "Time_Delta_Sec",
+    "Amount_Log1p",
+    "Amount_YJ",
+    "Amount_ZScore",
+    "Amount_to_Mean_Ratio",
+    "V14_x_V17",
+    "V12_x_V10",
+    "V14_x_V4",
+    "V11_x_V12",
+    "V16_x_V17",
+    "V3_x_V14",
+    "V14_per_LogAmount",
+    "V17_per_LogAmount",
+    "V12_per_LogAmount",
+    "V10_per_LogAmount",
+    "V14_Squared",
+    "V17_Squared",
+    "V12_Squared",
+    "V10_Squared",
+    "iForest_Anomaly_Score"
+  ],
+  "timestamp_generated": "2026-09-03 16:40:47 UTC"
+}
