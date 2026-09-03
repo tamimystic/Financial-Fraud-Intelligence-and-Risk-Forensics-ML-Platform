@@ -1,0 +1,123 @@
+{
+  "total_models_evaluated": 10,
+  "champion_model": "Balanced Extra Trees",
+  "champion_oot_pr_auc": 0.7819078882163157,
+  "champion_oot_roc_auc": 0.9816651944259163,
+  "champion_recall_at_1pct": 80.76923076923077,
+  "champion_optimal_dollar_loss": 2541.35,
+  "champion_optimal_threshold": 0.357070351758794,
+  "champion_latency_us": 1.2711155789046134,
+  "leaderboard_table": [
+    {
+      "Model Architecture": "Balanced Extra Trees",
+      "OOT PR-AUC": 0.7819078882163157,
+      "OOT ROC-AUC": 0.9816651944259163,
+      "Recall @ Top 1% Alerts": 80.76923076923077,
+      "Cost-Optimal Loss ($)": 2541.35,
+      "Optimal Threshold": 0.357070351758794,
+      "Brier Calibration Score": 0.006893478097827693,
+      "Train Time (s)": 2.5277581214904785,
+      "Latency (us/tx)": 1.2711155789046134
+    },
+    {
+      "Model Architecture": "Balanced Logistic Regression",
+      "OOT PR-AUC": 0.7775466941575911,
+      "OOT ROC-AUC": 0.9793306412359611,
+      "Recall @ Top 1% Alerts": 82.6923076923077,
+      "Cost-Optimal Loss ($)": 2647.5000000000005,
+      "Optimal Threshold": 0.999,
+      "Brier Calibration Score": 0.02763797015261744,
+      "Train Time (s)": 34.742865562438965,
+      "Latency (us/tx)": 0.1807364847802819
+    },
+    {
+      "Model Architecture": "Balanced Random Forest",
+      "OOT PR-AUC": 0.7636059764867875,
+      "OOT ROC-AUC": 0.9071490057868077,
+      "Recall @ Top 1% Alerts": 80.76923076923077,
+      "Cost-Optimal Loss ($)": 2625.3,
+      "Optimal Threshold": 0.4373115577889447,
+      "Brier Calibration Score": 0.0004911377181956346,
+      "Train Time (s)": 8.859554052352905,
+      "Latency (us/tx)": 0.8103564115818686
+    },
+    {
+      "Model Architecture": "XGBoost Classifier",
+      "OOT PR-AUC": 0.757190607940453,
+      "OOT ROC-AUC": 0.9761131942816967,
+      "Recall @ Top 1% Alerts": 80.76923076923077,
+      "Cost-Optimal Loss ($)": 2217.49,
+      "Optimal Threshold": 0.17151256281407035,
+      "Brier Calibration Score": 0.0007805460856840968,
+      "Train Time (s)": 0.7856760025024414,
+      "Latency (us/tx)": 0.3214035580641634
+    },
+    {
+      "Model Architecture": "Multi-Layer Perceptron (MLP)",
+      "OOT PR-AUC": 0.7534113496271551,
+      "OOT ROC-AUC": 0.9440275098700223,
+      "Recall @ Top 1% Alerts": 82.6923076923077,
+      "Cost-Optimal Loss ($)": 1959.61,
+      "Optimal Threshold": 0.02607537688442211,
+      "Brier Calibration Score": 0.00045035584658290913,
+      "Train Time (s)": 49.79460787773132,
+      "Latency (us/tx)": 1.516856033755936
+    },
+    {
+      "Model Architecture": "HistGradientBoosting",
+      "OOT PR-AUC": 0.7333699209481902,
+      "OOT ROC-AUC": 0.9645864505777794,
+      "Recall @ Top 1% Alerts": 80.76923076923077,
+      "Cost-Optimal Loss ($)": 2916.52,
+      "Optimal Threshold": 0.9689095477386934,
+      "Brier Calibration Score": 0.0023054547514657383,
+      "Train Time (s)": 8.080517768859863,
+      "Latency (us/tx)": 0.7868784151800082
+    },
+    {
+      "Model Architecture": "Linear Discriminant Analysis",
+      "OOT PR-AUC": 0.7032980031387099,
+      "OOT ROC-AUC": 0.9089571577941626,
+      "Recall @ Top 1% Alerts": 78.84615384615384,
+      "Cost-Optimal Loss ($)": 2643.5600000000004,
+      "Optimal Threshold": 0.001,
+      "Brier Calibration Score": 0.00044462737540985583,
+      "Train Time (s)": 2.2510550022125244,
+      "Latency (us/tx)": 0.4174529509979444
+    },
+    {
+      "Model Architecture": "AdaBoost Classifier",
+      "OOT PR-AUC": 0.5319986423249127,
+      "OOT ROC-AUC": 0.9692936399199582,
+      "Recall @ Top 1% Alerts": 80.76923076923077,
+      "Cost-Optimal Loss ($)": 3153.7000000000003,
+      "Optimal Threshold": 0.4824472361809045,
+      "Brier Calibration Score": 0.15785391235286675,
+      "Train Time (s)": 88.03377509117126,
+      "Latency (us/tx)": 9.359003514097479
+    },
+    {
+      "Model Architecture": "Gradient Boosting (GBDT)",
+      "OOT PR-AUC": 0.45991047387785133,
+      "OOT ROC-AUC": 0.7908188512916658,
+      "Recall @ Top 1% Alerts": 71.15384615384616,
+      "Cost-Optimal Loss ($)": 3525.7599999999998,
+      "Optimal Threshold": 0.011030150753768845,
+      "Brier Calibration Score": 0.0007319567759387702,
+      "Train Time (s)": 343.0140905380249,
+      "Latency (us/tx)": 0.9078121404066095
+    },
+    {
+      "Model Architecture": "LightGBM Classifier",
+      "OOT PR-AUC": 0.028629303700438202,
+      "OOT ROC-AUC": 0.8299712913053667,
+      "Recall @ Top 1% Alerts": 75.0,
+      "Cost-Optimal Loss ($)": 7213.36,
+      "Optimal Threshold": 0.999,
+      "Brier Calibration Score": 0.05084787379409783,
+      "Train Time (s)": 1.0155198574066162,
+      "Latency (us/tx)": 0.29270760905100307
+    }
+  ],
+  "timestamp_generated": "2026-09-03 20:34:46 UTC"
+}
