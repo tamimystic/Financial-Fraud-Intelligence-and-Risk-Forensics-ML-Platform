@@ -1,0 +1,73 @@
+{
+  "total_strategies_benchmarked": 7,
+  "top_performing_strategy": "Random Over-Sampler (ROS 10:1)",
+  "top_oot_pr_auc": 0.7686674262383959,
+  "top_oot_roc_auc": 0.9792738548070163,
+  "top_recall_at_1pct_alerts": 82.6923076923077,
+  "benchmark_summary_table": [
+    {
+      "Sampling Strategy": "Random Over-Sampler (ROS 10:1)",
+      "Resampled Train Size": 218878,
+      "Resampled Fraud Count": 19898,
+      "OOT PR-AUC (Average Precision)": 0.7686674262383959,
+      "OOT ROC-AUC": 0.9792738548070163,
+      "Recall @ Top 1% Alerts": 82.6923076923077,
+      "Pipeline Latency (s)": 7.697578430175781
+    },
+    {
+      "Sampling Strategy": "Standard SMOTE (10:1)",
+      "Resampled Train Size": 218878,
+      "Resampled Fraud Count": 19898,
+      "OOT PR-AUC (Average Precision)": 0.7634452903853802,
+      "OOT ROC-AUC": 0.9483279551477348,
+      "Recall @ Top 1% Alerts": 84.61538461538461,
+      "Pipeline Latency (s)": 7.212939977645874
+    },
+    {
+      "Sampling Strategy": "ADASYN (10:1)",
+      "Resampled Train Size": 218883,
+      "Resampled Fraud Count": 19903,
+      "OOT PR-AUC (Average Precision)": 0.7624670160329832,
+      "OOT ROC-AUC": 0.9707842836797606,
+      "Recall @ Top 1% Alerts": 82.6923076923077,
+      "Pipeline Latency (s)": 7.465221405029297
+    },
+    {
+      "Sampling Strategy": "Algorithmic Balanced Weighting",
+      "Resampled Train Size": 199364,
+      "Resampled Fraud Count": 384,
+      "OOT PR-AUC (Average Precision)": 0.75659663401574,
+      "OOT ROC-AUC": 0.9712196463016711,
+      "Recall @ Top 1% Alerts": 80.76923076923077,
+      "Pipeline Latency (s)": 3.0690557956695557
+    },
+    {
+      "Sampling Strategy": "Borderline-SMOTE (10:1)",
+      "Resampled Train Size": 218878,
+      "Resampled Fraud Count": 19898,
+      "OOT PR-AUC (Average Precision)": 0.752178700177637,
+      "OOT ROC-AUC": 0.9432005011627697,
+      "Recall @ Top 1% Alerts": 80.76923076923077,
+      "Pipeline Latency (s)": 7.4225029945373535
+    },
+    {
+      "Sampling Strategy": "Random Under-Sampler (RUS 10:1)",
+      "Resampled Train Size": 4224,
+      "Resampled Fraud Count": 384,
+      "OOT PR-AUC (Average Precision)": 0.7462480071632427,
+      "OOT ROC-AUC": 0.9774920679273854,
+      "Recall @ Top 1% Alerts": 82.6923076923077,
+      "Pipeline Latency (s)": 0.12872886657714844
+    },
+    {
+      "Sampling Strategy": "Baseline (Raw Imbalance)",
+      "Resampled Train Size": 199364,
+      "Resampled Fraud Count": 384,
+      "OOT PR-AUC (Average Precision)": 0.7451508394465131,
+      "OOT ROC-AUC": 0.978194912657064,
+      "Recall @ Top 1% Alerts": 80.76923076923077,
+      "Pipeline Latency (s)": 2.770582437515259
+    }
+  ],
+  "timestamp_generated": "2026-09-03 16:52:54 UTC"
+}
