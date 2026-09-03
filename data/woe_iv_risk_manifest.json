@@ -1,0 +1,35 @@
+{
+  "total_features_evaluated": 30,
+  "extremely_strong_features_count": 22,
+  "strong_features_count": 1,
+  "medium_features_count": 4,
+  "weak_or_unpredictive_count": 3,
+  "top_5_features_by_iv": [
+    {
+      "Feature": "V4",
+      "Information Value (IV)": 4.9159178003268975,
+      "Predictive Power Tier": "Extremely Strong (IV >= 0.50)"
+    },
+    {
+      "Feature": "V14",
+      "Information Value (IV)": 3.7800167407688954,
+      "Predictive Power Tier": "Extremely Strong (IV >= 0.50)"
+    },
+    {
+      "Feature": "V12",
+      "Information Value (IV)": 3.2108781779667894,
+      "Predictive Power Tier": "Extremely Strong (IV >= 0.50)"
+    },
+    {
+      "Feature": "V17",
+      "Information Value (IV)": 3.0521148649254184,
+      "Predictive Power Tier": "Extremely Strong (IV >= 0.50)"
+    },
+    {
+      "Feature": "V10",
+      "Information Value (IV)": 2.967956857604823,
+      "Predictive Power Tier": "Extremely Strong (IV >= 0.50)"
+    }
+  ],
+  "timestamp_generated": "2026-09-03 15:39:20 UTC"
+}
