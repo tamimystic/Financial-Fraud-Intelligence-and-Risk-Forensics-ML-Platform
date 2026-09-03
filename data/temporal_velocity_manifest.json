@@ -1,0 +1,15 @@
+{
+  "dominant_frequency_hours": 24.0,
+  "semi_diurnal_frequency_hours": 12.0,
+  "peak_fraud_hour_diurnal": 2,
+  "median_global_iat_seconds": 0.0,
+  "median_fraud_iat_seconds": 126.0,
+  "recommended_rolling_windows_seconds": [
+    300,
+    900,
+    3600,
+    21600,
+    86400
+  ],
+  "timestamp_generated": "2026-09-03 14:57:19 UTC"
+}
