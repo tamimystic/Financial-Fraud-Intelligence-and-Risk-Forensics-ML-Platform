@@ -8,14 +8,14 @@
   },
   "optimal_decision_policy": {
     "optimal_threshold_theta": 0.927,
-    "optimal_dollar_loss": 17176.739999999998,
-    "dollar_savings": 50331.23,
-    "savings_percentage": 74.55598205663718
+    "optimal_dollar_loss": 17169.34,
+    "dollar_savings": 50338.630000000005,
+    "savings_percentage": 74.56694372531125
   },
   "symmetric_cutoff_0_50": {
-    "loss": 29558.05,
-    "difference_vs_optimal": 12381.310000000001
+    "loss": 29565.45,
+    "difference_vs_optimal": 12396.11
   },
   "top_1pct_capture_rate": 85.86363384627822,
-  "timestamp_generated": "2026-09-03 16:11:07 UTC"
+  "timestamp_generated": "2026-09-03 16:41:15 UTC"
 }
