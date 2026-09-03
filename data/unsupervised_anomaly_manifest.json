@@ -1,0 +1,40 @@
+{
+  "benchmark_results": [
+    {
+      "Algorithm": "FastMCD Robust Elliptic",
+      "PR-AUC": 0.7065625546381814,
+      "ROC-AUC": 0.9646272385002086
+    },
+    {
+      "Algorithm": "Ensemble Meta-Anomaly",
+      "PR-AUC": 0.6168291581955677,
+      "ROC-AUC": 0.9629128995860452
+    },
+    {
+      "Algorithm": "Local Outlier Factor (LOF)",
+      "PR-AUC": 0.2644642897213589,
+      "ROC-AUC": 0.9136010915746322
+    },
+    {
+      "Algorithm": "Isolation Forest",
+      "PR-AUC": 0.22436853332276874,
+      "ROC-AUC": 0.9475915654642189
+    }
+  ],
+  "iforest_parameters": {
+    "n_estimators": 150,
+    "max_samples": 1024,
+    "contamination": 0.002
+  },
+  "lof_parameters": {
+    "n_neighbors": 25,
+    "contamination": 0.002
+  },
+  "mcd_parameters": {
+    "support_fraction": 0.85,
+    "contamination": 0.002
+  },
+  "top_algorithm": "FastMCD Robust Elliptic",
+  "top_pr_auc": 0.7065625546381814,
+  "timestamp_generated": "2026-09-03 15:14:41 UTC"
+}
