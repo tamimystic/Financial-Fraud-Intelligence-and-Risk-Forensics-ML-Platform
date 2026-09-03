@@ -1,0 +1,21 @@
+{
+  "baseline_total_fraud_dollars": 60127.97,
+  "baseline_no_model_loss": 67507.97,
+  "cost_parameters": {
+    "chargeback_penalty": 15.0,
+    "customer_friction_cost": 2.5,
+    "analyst_review_cost": 1.2
+  },
+  "optimal_decision_policy": {
+    "optimal_threshold_theta": 0.927,
+    "optimal_dollar_loss": 17176.739999999998,
+    "dollar_savings": 50331.23,
+    "savings_percentage": 74.55598205663718
+  },
+  "symmetric_cutoff_0_50": {
+    "loss": 29558.05,
+    "difference_vs_optimal": 12381.310000000001
+  },
+  "top_1pct_capture_rate": 85.86363384627822,
+  "timestamp_generated": "2026-09-03 16:11:07 UTC"
+}

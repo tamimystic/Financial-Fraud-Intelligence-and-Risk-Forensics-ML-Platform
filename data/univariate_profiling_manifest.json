@@ -8,17 +8,17 @@
   },
   "imbalance_ratio": 577.8760162601626,
   "amount_stats": {
-    "mean": 88.34961925093134,
+    "mean": 88.34961925093133,
     "median": 22.0,
-    "std": 250.1201092402221,
+    "std": 250.1201092401885,
     "max": 25691.16,
-    "skewness": 16.97763503663313,
-    "kurtosis": 845.0777883188745
+    "skewness": 16.97763503663315,
+    "kurtosis": 845.0777883188754
   },
   "time_stats": {
     "min_seconds": 0.0,
     "max_seconds": 172792.0,
     "duration_hours": 47.99777777777778
   },
-  "timestamp_generated": "2026-09-02 17:54:40 UTC"
+  "timestamp_generated": "2026-09-03 16:09:10 UTC"
 }
