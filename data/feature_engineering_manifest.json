@@ -13,28 +13,28 @@
   "top_5_engineered_features": [
     {
       "Engineered Feature": "V14_Squared",
-      "KS Separation D": 0.8369515256977251,
-      "Point-Biserial r": 0.5919493575234157
+      "KS Separation D": 0.836951525697725,
+      "Point-Biserial r": 0.5919493575234155
     },
     {
       "Engineered Feature": "V14_x_V4",
       "KS Separation D": 0.8368578186249874,
-      "Point-Biserial r": -0.5988355713593335
+      "Point-Biserial r": -0.5988355713593339
     },
     {
       "Engineered Feature": "V3_x_V14",
       "KS Separation D": 0.8278131491439676,
-      "Point-Biserial r": 0.5665484050803743
+      "Point-Biserial r": 0.5665484050803741
     },
     {
       "Engineered Feature": "V16_x_V17",
-      "KS Separation D": 0.8275701389586892,
-      "Point-Biserial r": 0.5912526974631646
+      "KS Separation D": 0.8275701389586894,
+      "Point-Biserial r": 0.5912526974631647
     },
     {
-      "Engineered Feature": "iForest_Anomaly_Score",
-      "KS Separation D": 0.8261899227728079,
-      "Point-Biserial r": 0.2480728602196089
+      "Engineered Feature": "V17_Squared",
+      "KS Separation D": 0.8237080988038998,
+      "Point-Biserial r": 0.5884508796262049
     }
   ],
   "feature_column_names": [
@@ -92,5 +92,5 @@
     "V10_Squared",
     "iForest_Anomaly_Score"
   ],
-  "timestamp_generated": "2026-09-03 16:40:47 UTC"
+  "timestamp_generated": "2026-09-03 16:42:42 UTC"
 }
