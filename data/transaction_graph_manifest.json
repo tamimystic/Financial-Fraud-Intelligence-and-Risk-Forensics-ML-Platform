@@ -1,0 +1,10 @@
+{
+  "total_graph_nodes": 1200,
+  "total_graph_edges": 80843,
+  "graph_density": 0.11237559077008619,
+  "total_fraud_clusters": 30,
+  "largest_fraud_cluster_nodes": 212,
+  "pagerank_compromised_mean": 0.0005366533007718276,
+  "pagerank_clean_mean": 0.0006577502531328105,
+  "timestamp_generated": "2026-09-03 15:21:41 UTC"
+}
