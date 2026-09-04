@@ -1,0 +1,1152 @@
+[
+  {
+    "transaction_id": "TXN-AUDIT-001308",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.9968,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -10.0427,
+        "shap_attribution": 1.4139
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -50.2375,
+        "shap_attribution": 1.1678
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 116.0982,
+        "shap_attribution": 1.1459
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 2.0996,
+        "shap_attribution": 0.7072
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-001462",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99585,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -10.0015,
+        "shap_attribution": 1.5117
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -25.6391,
+        "shap_attribution": 1.3795
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 115.1383,
+        "shap_attribution": 1.2818
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-17",
+        "regulatory_category": "Structural Risk Vector",
+        "reason_description": "Secondary structural divergence in transaction execution manifold",
+        "feature_name": "V17",
+        "feature_value": -8.264,
+        "shap_attribution": 0.6176
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-001614",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99653,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -147.606,
+        "shap_attribution": 1.3528
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -16.3008,
+        "shap_attribution": 1.3315
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 308.3888,
+        "shap_attribution": 1.1694
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 3.8271,
+        "shap_attribution": 0.756
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-001664",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99636,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -15.9628,
+        "shap_attribution": 1.3599
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -173.0012,
+        "shap_attribution": 1.2134
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 295.6548,
+        "shap_attribution": 1.1465
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 4.5902,
+        "shap_attribution": 0.7637
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-001763",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99649,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -15.6857,
+        "shap_attribution": 1.4191
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -169.5377,
+        "shap_attribution": 1.2173
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 285.4154,
+        "shap_attribution": 1.1547
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 4.578,
+        "shap_attribution": 0.7578
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-001918",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99628,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -15.4084,
+        "shap_attribution": 1.4755
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -166.0955,
+        "shap_attribution": 1.287
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 275.3483,
+        "shap_attribution": 1.1335
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 4.5661,
+        "shap_attribution": 0.7808
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-002247",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99555,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -15.131,
+        "shap_attribution": 1.4664
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -162.6734,
+        "shap_attribution": 1.3742
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 265.4551,
+        "shap_attribution": 1.1249
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 4.5544,
+        "shap_attribution": 0.7983
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-005910",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99563,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -6.8425,
+        "shap_attribution": 1.5609
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -25.2024,
+        "shap_attribution": 1.4765
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 53.302,
+        "shap_attribution": 1.2369
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-17",
+        "regulatory_category": "Structural Risk Vector",
+        "reason_description": "Secondary structural divergence in transaction execution manifold",
+        "feature_name": "V17",
+        "feature_value": -3.5331,
+        "shap_attribution": 0.6351
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-006211",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.98822,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -88.2091,
+        "shap_attribution": 1.812
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -11.2937,
+        "shap_attribution": 1.596
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 147.1832,
+        "shap_attribution": 1.398
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 3.3019,
+        "shap_attribution": 0.8797
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-007082",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99555,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -7.0257,
+        "shap_attribution": 1.443
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -31.5828,
+        "shap_attribution": 1.3424
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 56.2478,
+        "shap_attribution": 1.1403
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-17",
+        "regulatory_category": "Structural Risk Vector",
+        "reason_description": "Secondary structural divergence in transaction execution manifold",
+        "feature_name": "V17",
+        "feature_value": -2.3762,
+        "shap_attribution": 0.7015
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-007522",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99183,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -34.1911,
+        "shap_attribution": 1.7343
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -6.629,
+        "shap_attribution": 1.6448
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 49.9692,
+        "shap_attribution": 1.331
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 2.1751,
+        "shap_attribution": 0.7205
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-007743",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99565,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -100.1333,
+        "shap_attribution": 1.5931
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -12.0696,
+        "shap_attribution": 1.4947
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 168.3084,
+        "shap_attribution": 1.2443
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 3.5086,
+        "shap_attribution": 0.7938
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-007878",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99542,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -141.5292,
+        "shap_attribution": 1.6209
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -14.2375,
+        "shap_attribution": 1.4773
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 234.8307,
+        "shap_attribution": 1.2197
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 4.2089,
+        "shap_attribution": 0.7745
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-008676",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99604,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -143.4092,
+        "shap_attribution": 1.5743
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -14.053,
+        "shap_attribution": 1.5224
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 228.7386,
+        "shap_attribution": 1.2297
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 4.3224,
+        "shap_attribution": 0.8024
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-009392",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99609,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -140.2107,
+        "shap_attribution": 1.6042
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -13.7742,
+        "shap_attribution": 1.5676
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 219.6854,
+        "shap_attribution": 1.2275
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 4.312,
+        "shap_attribution": 0.8107
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-009781",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99683,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -9.6288,
+        "shap_attribution": 1.4835
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -78.0851,
+        "shap_attribution": 1.4165
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 106.6237,
+        "shap_attribution": 1.2195
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 3.4344,
+        "shap_attribution": 0.8571
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-009819",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99543,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -42.3934,
+        "shap_attribution": 1.518
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -9.8151,
+        "shap_attribution": 1.508
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 110.8373,
+        "shap_attribution": 1.1153
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 1.8067,
+        "shap_attribution": 0.7078
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-010039",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99659,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -113.3058,
+        "shap_attribution": 1.5771
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -14.2435,
+        "shap_attribution": 1.5097
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 235.0275,
+        "shap_attribution": 1.2227
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 3.3588,
+        "shap_attribution": 0.8245
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-010689",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99478,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -148.0186,
+        "shap_attribution": 1.9022
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -13.9024,
+        "shap_attribution": 1.6273
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 223.8246,
+        "shap_attribution": 1.3085
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 4.512,
+        "shap_attribution": 0.8395
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-013318",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99495,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -70.3995,
+        "shap_attribution": 1.8682
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -9.4395,
+        "shap_attribution": 1.7083
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 102.4223,
+        "shap_attribution": 1.4775
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 3.1552,
+        "shap_attribution": 0.8447
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-013471",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.98793,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -104.886,
+        "shap_attribution": 1.7871
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -11.6215,
+        "shap_attribution": 1.5869
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 155.937,
+        "shap_attribution": 1.4771
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 3.822,
+        "shap_attribution": 0.9254
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-016318",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99036,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -37.1228,
+        "shap_attribution": 1.5752
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -5.2751,
+        "shap_attribution": 1.4696
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 31.3198,
+        "shap_attribution": 1.2701
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 2.9948,
+        "shap_attribution": 0.7532
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-018971",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.98881,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -56.0443,
+        "shap_attribution": 1.9433
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -6.9795,
+        "shap_attribution": 1.6969
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 55.499,
+        "shap_attribution": 1.4886
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 3.4111,
+        "shap_attribution": 0.8334
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-019840",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.9962,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -6.821,
+        "shap_attribution": 1.4528
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -23.7357,
+        "shap_attribution": 1.3647
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 52.9622,
+        "shap_attribution": 1.0975
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-17",
+        "regulatory_category": "Structural Risk Vector",
+        "reason_description": "Secondary structural divergence in transaction execution manifold",
+        "feature_name": "V17",
+        "feature_value": -4.2637,
+        "shap_attribution": 0.7224
+      }
+    ]
+  },
+  {
+    "transaction_id": "TXN-AUDIT-020474",
+    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "adverse_action_triggered": true,
+    "model_fraud_score": 0.99672,
+    "decision_threshold": 0.97074,
+    "compliance_standard": "FCRA Section 615(a) / ECOA Regulation B (12 CFR 1002.9)",
+    "principal_adverse_reasons": [
+      {
+        "rank": 1,
+        "reason_code": "RC-GEN-V14_x_V4",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_x_V4",
+        "feature_name": "V14_x_V4",
+        "feature_value": -112.7627,
+        "shap_attribution": 1.5284
+      },
+      {
+        "rank": 2,
+        "reason_code": "RC-LAT-14",
+        "regulatory_category": "Behavioral Risk Signature",
+        "reason_description": "Significant anomaly detected in primary transaction behavior pattern",
+        "feature_name": "V14",
+        "feature_value": -12.6806,
+        "shap_attribution": 1.488
+      },
+      {
+        "rank": 3,
+        "reason_code": "RC-GEN-V14_Squared",
+        "regulatory_category": "Composite Feature Deviation",
+        "reason_description": "Elevated statistical deviation detected in factor V14_Squared",
+        "feature_name": "V14_Squared",
+        "feature_value": 185.9401,
+        "shap_attribution": 1.2281
+      },
+      {
+        "rank": 4,
+        "reason_code": "RC-LAT-04",
+        "regulatory_category": "Authentication Metadata",
+        "reason_description": "Abnormal authentication and routing metadata signature",
+        "feature_name": "V4",
+        "feature_value": 3.7629,
+        "shap_attribution": 0.8221
+      }
+    ]
+  }
+]
