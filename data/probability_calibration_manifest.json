@@ -1,7 +1,7 @@
 {
   "platform": "Enterprise Financial Risk Intelligence & Fraud Forensics",
   "notebook": "13_Probability_Calibration_and_Brier_Score_Optimization.ipynb",
-  "timestamp": "2026-09-04T06:48:52Z",
+  "timestamp": "2026-09-04T16:52:01Z",
   "optimal_calibrated_pipeline": {
     "base_classifier": "RandomForest",
     "calibration_technique": "Platt Scaling",
@@ -34,9 +34,9 @@
       "Base Classifier": "RandomForest",
       "Calibration Method": "Beta Calibration",
       "OOT Brier Score Loss": 0.0003695065489898187,
-      "Expected Calib Error (ECE)": 0.00011401621132172456,
+      "Expected Calib Error (ECE)": 0.00011401621132172452,
       "Max Calib Error (MCE)": 0.3132888170411351,
-      "Brier Reliability": 1.6111981995314236e-05,
+      "Brier Reliability": 1.611198199531424e-05,
       "Brier Resolution": 0.0008627249280872695,
       "Log Loss": 0.003235855873639757,
       "OOT PR-AUC": 0.7734336680527365,
@@ -47,8 +47,8 @@
       "Calibration Method": "Isotonic Regression",
       "OOT Brier Score Loss": 0.0003716201065639016,
       "Expected Calib Error (ECE)": 0.00016377552320999625,
-      "Max Calib Error (MCE)": 0.23309042702783658,
-      "Brier Reliability": 1.0703491810143916e-05,
+      "Max Calib Error (MCE)": 0.23309042702783664,
+      "Brier Reliability": 1.0703491810143923e-05,
       "Brier Resolution": 0.000853587937640233,
       "Log Loss": 0.00396897228188555,
       "OOT PR-AUC": 0.7441625656769671,
@@ -123,8 +123,8 @@
       "Brier Reliability": 5.7521217383928844e-05,
       "Brier Resolution": 0.0008579321904466552,
       "Log Loss": 0.006944103508352904,
-      "OOT PR-AUC": 0.7734336680527366,
-      "OOT ROC-AUC": 0.9559797011050819
+      "OOT PR-AUC": 0.7734336680527365,
+      "OOT ROC-AUC": 0.9559797011050818
     },
     {
       "Base Classifier": "XGBoost",

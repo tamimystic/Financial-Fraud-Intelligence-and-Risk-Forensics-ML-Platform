@@ -1,7 +1,7 @@
 {
   "platform": "Enterprise Financial Risk Intelligence & Fraud Forensics",
   "notebook": "14_Deep_Learning_Variational_Autoencoders_Anomaly_Architecture.ipynb",
-  "timestamp": "2026-09-04T07:11:48Z",
+  "timestamp": "2026-09-04T16:55:04Z",
   "architecture_specifications": {
     "input_dimensions": 53,
     "latent_dimensions": 8,

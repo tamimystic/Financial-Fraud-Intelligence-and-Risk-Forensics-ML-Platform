@@ -7,12 +7,12 @@
   "top_5_features_by_iv": [
     {
       "Feature": "V4",
-      "Information Value (IV)": 4.9159178003268975,
+      "Information Value (IV)": 4.915917800326897,
       "Predictive Power Tier": "Extremely Strong (IV >= 0.50)"
     },
     {
       "Feature": "V14",
-      "Information Value (IV)": 3.7800167407688954,
+      "Information Value (IV)": 3.780016740768895,
       "Predictive Power Tier": "Extremely Strong (IV >= 0.50)"
     },
     {
@@ -31,5 +31,5 @@
       "Predictive Power Tier": "Extremely Strong (IV >= 0.50)"
     }
   ],
-  "timestamp_generated": "2026-09-03 15:39:20 UTC"
+  "timestamp_generated": "2026-09-04 11:29:40 UTC"
 }

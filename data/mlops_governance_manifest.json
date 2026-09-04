@@ -3,15 +3,15 @@
     "model_name": "Financial_Fraud_Champion_XGBoost",
     "version": "1.0.0",
     "governance_standard": "Federal Reserve SR 11-7 / OCC 2011-12 Compliant",
-    "timestamp_utc": "2026-09-04T10:17:58Z",
+    "timestamp_utc": "2026-09-04T17:36:59Z",
     "n_features": 53,
     "baseline_cohort_size": 14000
   },
   "stability_monitoring": {
     "psi_nominal_stream_T1": 0.00514,
     "psi_drifted_stream_T2": 1.05597,
-    "status_T1": "GREEN (Stable - No Action)",
-    "status_T2": "RED (Critical - Retraining Mandated)"
+    "status_T1": "Green (Stable)",
+    "status_T2": "Red (Critical Drift)"
   },
   "feature_drift_audit": {
     "total_features_scanned": 53,
@@ -50,13 +50,13 @@
     ]
   },
   "latency_sla_certification": {
-    "single_transaction_p50_ms": 0.221,
-    "single_transaction_p95_ms": 0.809,
-    "single_transaction_p99_ms": 2.838,
-    "single_transaction_max_ms": 10.95,
+    "single_transaction_p50_ms": 0.277,
+    "single_transaction_p95_ms": 0.673,
+    "single_transaction_p99_ms": 1.426,
+    "single_transaction_max_ms": 4.184,
     "sla_target_p99_ms": 10.0,
     "sla_status": "CERTIFIED_PASS",
-    "concurrent_throughput_qps": 2623.2
+    "concurrent_throughput_qps": 2613.4
   },
   "validation_sign_off": {
     "model_risk_officer_status": "APPROVED_FOR_PRODUCTION",

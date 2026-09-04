@@ -1,6 +1,6 @@
 {
   "platform_module": "Explainable AI, SHAP, LIME, and Adverse Action Compliance",
-  "timestamp_utc": "2026-09-04 09:47:44 UTC",
+  "timestamp_utc": "2026-09-04 17:36:03 UTC",
   "model_architecture": "XGBoost Cost-Sensitive Tree Ensemble Classifier",
   "explainer_architecture": "TreeSHAP (Exact Polynomial Algorithm) + LIME Tabular",
   "base_expected_value_phi_0": -1.647997033543368,
@@ -42,7 +42,7 @@
   "population_audit_flagged_count": 37,
   "sample_adverse_action_notice": {
     "transaction_id": "TXN-FORENSIC-001308",
-    "timestamp_utc": "2026-09-04T09:47:44Z",
+    "timestamp_utc": "2026-09-04T17:36:03Z",
     "adverse_action_triggered": true,
     "model_fraud_score": 0.9968,
     "decision_threshold": 0.97074,

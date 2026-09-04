@@ -29,215 +29,215 @@
     {
       "Feature": "V14",
       "KS Statistic (D)": 0.8428391431180549,
-      "Point-Biserial r": -0.3025436958044074,
+      "Point-Biserial r": -0.30254369580451146,
       "ANOVA F-Stat": 28695.54778806966,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V10",
       "KS Statistic (D)": 0.8042911367773263,
-      "Point-Biserial r": -0.2168829436410297,
+      "Point-Biserial r": -0.21688294364110516,
       "ANOVA F-Stat": 14057.979985070313,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V12",
       "KS Statistic (D)": 0.7839083782744691,
-      "Point-Biserial r": -0.2605929248772198,
+      "Point-Biserial r": -0.26059292487731023,
       "ANOVA F-Stat": 20749.82236132855,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V4",
       "KS Statistic (D)": 0.7664040757496016,
-      "Point-Biserial r": 0.13344748623900599,
+      "Point-Biserial r": 0.1334474862390528,
       "ANOVA F-Stat": 5163.832114291134,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V11",
       "KS Statistic (D)": 0.7560672713721139,
-      "Point-Biserial r": 0.154875644743949,
+      "Point-Biserial r": 0.15487564474400292,
       "ANOVA F-Stat": 6999.355046891663,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V17",
       "KS Statistic (D)": 0.7451726221445955,
-      "Point-Biserial r": -0.326481067243718,
+      "Point-Biserial r": -0.32648106724383097,
       "ANOVA F-Stat": 33979.168593382,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V3",
       "KS Statistic (D)": 0.7036817131004787,
-      "Point-Biserial r": -0.19296082706741524,
+      "Point-Biserial r": -0.19296082706748222,
       "ANOVA F-Stat": 11014.50830539287,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V16",
       "KS Statistic (D)": 0.6865061424913882,
-      "Point-Biserial r": -0.19653894030402053,
+      "Point-Biserial r": -0.19653894030408886,
       "ANOVA F-Stat": 11443.349427717103,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V7",
       "KS Statistic (D)": 0.6605775627599584,
-      "Point-Biserial r": -0.18725659151429988,
+      "Point-Biserial r": -0.1872565915143649,
       "ANOVA F-Stat": 10349.605407764398,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V2",
       "KS Statistic (D)": 0.6332012800985509,
-      "Point-Biserial r": 0.09128865034462015,
+      "Point-Biserial r": 0.09128865034465196,
       "ANOVA F-Stat": 2393.401678395205,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V9",
       "KS Statistic (D)": 0.5763197781459903,
-      "Point-Biserial r": -0.09773268607407984,
+      "Point-Biserial r": -0.09773268607411333,
       "ANOVA F-Stat": 2746.6002732770103,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V21",
       "KS Statistic (D)": 0.518527228973818,
-      "Point-Biserial r": 0.04041338061057598,
+      "Point-Biserial r": 0.0404133806105901,
       "ANOVA F-Stat": 465.91625134626497,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V18",
       "KS Statistic (D)": 0.5033604302682142,
-      "Point-Biserial r": -0.11148525388904224,
+      "Point-Biserial r": -0.1114852538890812,
       "ANOVA F-Stat": 3584.380605074456,
       "Discriminative Power": "Very Strong"
     },
     {
       "Feature": "V6",
       "KS Statistic (D)": 0.48642498894433045,
-      "Point-Biserial r": -0.043643160699964316,
+      "Point-Biserial r": -0.04364316069997955,
       "ANOVA F-Stat": 543.510577602403,
       "Discriminative Power": "Strong"
     },
     {
       "Feature": "V1",
       "KS Statistic (D)": 0.4753308729911244,
-      "Point-Biserial r": -0.10134729859508601,
+      "Point-Biserial r": -0.10134729859512101,
       "ANOVA F-Stat": 2955.6689455055966,
       "Discriminative Power": "Strong"
     },
     {
       "Feature": "V27",
       "KS Statistic (D)": 0.46954181273518764,
-      "Point-Biserial r": 0.017579728189513408,
+      "Point-Biserial r": 0.01757972818951955,
       "ANOVA F-Stat": 88.04529630334952,
       "Discriminative Power": "Strong"
     },
     {
       "Feature": "V5",
       "KS Statistic (D)": 0.4364424249469092,
-      "Point-Biserial r": -0.09497429899144925,
+      "Point-Biserial r": -0.09497429899148217,
       "ANOVA F-Stat": 2592.3579287739826,
       "Discriminative Power": "Strong"
     },
     {
       "Feature": "V28",
       "KS Statistic (D)": 0.3684565770617697,
-      "Point-Biserial r": 0.009536040916236272,
+      "Point-Biserial r": 0.009536040916239582,
       "ANOVA F-Stat": 25.901404598714553,
       "Discriminative Power": "Strong"
     },
     {
       "Feature": "V8",
       "KS Statistic (D)": 0.36839471821375264,
-      "Point-Biserial r": 0.0198751239147946,
+      "Point-Biserial r": 0.019875123914801545,
       "ANOVA F-Stat": 112.5482868079598,
       "Discriminative Power": "Strong"
     },
     {
       "Feature": "V20",
       "KS Statistic (D)": 0.36394720072449127,
-      "Point-Biserial r": 0.020090324196975567,
+      "Point-Biserial r": 0.02009032419698255,
       "ANOVA F-Stat": 114.99973120818362,
       "Discriminative Power": "Strong"
     },
     {
       "Feature": "V19",
       "KS Statistic (D)": 0.3346816746397596,
-      "Point-Biserial r": 0.03478301303651513,
+      "Point-Biserial r": 0.034783013036527206,
       "ANOVA F-Stat": 344.99099663763354,
       "Discriminative Power": "Strong"
     },
     {
       "Feature": "Amount",
       "KS Statistic (D)": 0.27119151307757383,
-      "Point-Biserial r": 0.005631753006768599,
+      "Point-Biserial r": 0.005631753006770721,
       "ANOVA F-Stat": 9.033344712018891,
       "Discriminative Power": "Moderate"
     },
     {
       "Feature": "V23",
       "KS Statistic (D)": 0.1819396183867401,
-      "Point-Biserial r": -0.0026851557402507147,
+      "Point-Biserial r": -0.0026851557402516554,
       "ANOVA F-Stat": 2.0534763283065547,
       "Discriminative Power": "Moderate"
     },
     {
       "Feature": "Time",
       "KS Statistic (D)": 0.16938909937434854,
-      "Point-Biserial r": -0.01232257092924575,
+      "Point-Biserial r": -0.012322570929250078,
       "ANOVA F-Stat": 43.25299783928649,
       "Discriminative Power": "Moderate"
     },
     {
       "Feature": "V24",
       "KS Statistic (D)": 0.12919335147135125,
-      "Point-Biserial r": -0.007220906715952788,
+      "Point-Biserial r": -0.007220906715955309,
       "ANOVA F-Stat": 14.850932491653577,
       "Discriminative Power": "Weak"
     },
     {
       "Feature": "V13",
       "KS Statistic (D)": 0.10311905708614441,
-      "Point-Biserial r": -0.0045697787994613045,
+      "Point-Biserial r": -0.004569778799462914,
       "ANOVA F-Stat": 5.9476723519156405,
       "Discriminative Power": "Weak"
     },
     {
       "Feature": "V26",
       "KS Statistic (D)": 0.09076917720797772,
-      "Point-Biserial r": 0.00445539750128339,
+      "Point-Biserial r": 0.0044553975012849405,
       "ANOVA F-Stat": 5.653652932587365,
       "Discriminative Power": "Weak"
     },
     {
       "Feature": "V25",
       "KS Statistic (D)": 0.08812864152593836,
-      "Point-Biserial r": 0.0033077055972996865,
+      "Point-Biserial r": 0.0033077055973008466,
       "ANOVA F-Stat": 3.116061764635103,
       "Discriminative Power": "Weak"
     },
     {
       "Feature": "V15",
       "KS Statistic (D)": 0.06341434104420712,
-      "Point-Biserial r": -0.004223402267856713,
+      "Point-Biserial r": -0.004223402267858211,
       "ANOVA F-Stat": 5.080193490444487,
       "Discriminative Power": "Weak"
     },
     {
       "Feature": "V22",
       "KS Statistic (D)": 0.057858211199103726,
-      "Point-Biserial r": 0.0008053175052984633,
+      "Point-Biserial r": 0.0008053175052987184,
       "ANOVA F-Stat": 0.18470649625035843,
       "Discriminative Power": "Weak"
     }
   ],
   "amount_fraud_mean": 122.21132113821139,
   "amount_legit_mean": 88.29102242231328,
-  "timestamp_generated": "2026-09-03 14:47:57 UTC"
+  "timestamp_generated": "2026-09-04 10:50:53 UTC"
 }

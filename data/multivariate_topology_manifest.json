@@ -1,11 +1,11 @@
 {
   "total_continuous_features": 30,
-  "pca_cumulative_variance_top3": 43.828633177664464,
-  "pca_cumulative_variance_top10": 77.2214388339936,
-  "covariance_condition_number": 46.45382168417582,
-  "mahalanobis_ks_divergence": 0.8324861788617887,
-  "mahalanobis_median_legit": 4.289514853461187,
-  "mahalanobis_median_fraud": 49.48612215604917,
+  "pca_cumulative_variance_top3": 43.82863317766441,
+  "pca_cumulative_variance_top10": 77.22143883399353,
+  "covariance_condition_number": 46.45382168417581,
+  "mahalanobis_ks_divergence": 0.8300520325203251,
+  "mahalanobis_median_legit": 4.284214517523866,
+  "mahalanobis_median_fraud": 25.733487356079703,
   "tsne_kl_divergence": 1.3609824180603027,
-  "timestamp_generated": "2026-09-03 14:52:14 UTC"
+  "timestamp_generated": "2026-09-04 10:51:43 UTC"
 }
