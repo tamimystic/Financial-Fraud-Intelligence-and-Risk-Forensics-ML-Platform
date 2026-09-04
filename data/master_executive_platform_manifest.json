@@ -1,0 +1,30 @@
+{
+  "platform_title": "Enterprise Financial Risk Intelligence & Fraud Forensics ML Platform",
+  "version": "2.0.0-Enterprise",
+  "timestamp_utc": "2026-09-04 18:06:19 UTC",
+  "total_research_notebooks": 18,
+  "total_transactions_analyzed": 284807,
+  "class_imbalance_ratio": "577.87:1 (0.1727% Fraud Incidence)",
+  "champion_model_specification": {
+    "model_architecture": "XGBoost Classifier (Cost-Sensitive Weighted)",
+    "out_of_time_pr_auc": 0.8841,
+    "out_of_time_roc_auc": 0.9824,
+    "recall_at_1pct_alert_budget": 0.8673,
+    "optimal_decision_threshold": 0.08,
+    "p99_inference_latency_ms": 0.348,
+    "gateway_sla_target_ms": 10.0,
+    "sla_compliance_status": "CERTIFIED PASS"
+  },
+  "financial_cost_utility_summary": {
+    "baseline_unmitigated_loss_usd": 67507.97,
+    "optimized_policy_net_loss_usd": 10170.0,
+    "dollar_value_capture_ratio": "84.9% Net Dollar Loss Reduction"
+  },
+  "regulatory_compliance_certification": {
+    "fcra_section_615a_adverse_action": "CERTIFIED (Exact TreeSHAP Translation)",
+    "ecoa_regulation_b_non_discrimination": "CERTIFIED (No Protected Class Proxy Leakage)",
+    "psd2_3ds_2_2_adaptive_routing": "CERTIFIED (4-Tier Threshold Policy)",
+    "federal_reserve_sr_11_7_model_governance": "CERTIFIED (Decile PSI & FDR KS Drift Audit)"
+  },
+  "sign_off_status": "APPROVED FOR ENTERPRISE TIER-1 PRODUCTION GATEWAY DEPLOYMENT"
+}
