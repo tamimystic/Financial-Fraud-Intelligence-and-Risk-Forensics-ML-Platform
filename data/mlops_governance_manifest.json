@@ -1,0 +1,65 @@
+{
+  "model_metadata": {
+    "model_name": "Financial_Fraud_Champion_XGBoost",
+    "version": "1.0.0",
+    "governance_standard": "Federal Reserve SR 11-7 / OCC 2011-12 Compliant",
+    "timestamp_utc": "2026-09-04T10:17:58Z",
+    "n_features": 53,
+    "baseline_cohort_size": 14000
+  },
+  "stability_monitoring": {
+    "psi_nominal_stream_T1": 0.00514,
+    "psi_drifted_stream_T2": 1.05597,
+    "status_T1": "GREEN (Stable - No Action)",
+    "status_T2": "RED (Critical - Retraining Mandated)"
+  },
+  "feature_drift_audit": {
+    "total_features_scanned": 53,
+    "features_with_fdr_drift": 45,
+    "top_drifted_features": [
+      {
+        "Feature": "Time",
+        "Feature_PSI": 21.02370832198919,
+        "KS_Statistic": 1.0,
+        "Wasserstein_W1": 0.282142079556132
+      },
+      {
+        "Feature": "Hour_of_Day",
+        "Feature_PSI": 21.02370832198919,
+        "KS_Statistic": 1.0,
+        "Wasserstein_W1": 0.4202131715810318
+      },
+      {
+        "Feature": "Time_Sin",
+        "Feature_PSI": 21.02370832198919,
+        "KS_Statistic": 1.0,
+        "Wasserstein_W1": 0.5065467785417206
+      },
+      {
+        "Feature": "Time_Cos",
+        "Feature_PSI": 21.02370832198919,
+        "KS_Statistic": 1.0,
+        "Wasserstein_W1": 0.47594464144399523
+      },
+      {
+        "Feature": "V12",
+        "Feature_PSI": 2.606743607866994,
+        "KS_Statistic": 0.6612142857142858,
+        "Wasserstein_W1": 1.3118220087226566
+      }
+    ]
+  },
+  "latency_sla_certification": {
+    "single_transaction_p50_ms": 0.221,
+    "single_transaction_p95_ms": 0.809,
+    "single_transaction_p99_ms": 2.838,
+    "single_transaction_max_ms": 10.95,
+    "sla_target_p99_ms": 10.0,
+    "sla_status": "CERTIFIED_PASS",
+    "concurrent_throughput_qps": 2623.2
+  },
+  "validation_sign_off": {
+    "model_risk_officer_status": "APPROVED_FOR_PRODUCTION",
+    "retraining_trigger_policy": "Automated pipeline trigger if 24h Rolling PSI >= 0.25 or PR-AUC < 0.70"
+  }
+}

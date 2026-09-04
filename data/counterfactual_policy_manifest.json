@@ -1,0 +1,100 @@
+{
+  "platform_module": "Counterfactual Policy Simulations and Adaptive Intervention Engine",
+  "timestamp_utc": "2026-09-04 10:16:32 UTC",
+  "optimal_policy_cutoffs": {
+    "theta_low_frictionless_approve": 0.29,
+    "theta_mid_stepup_2fa": 0.8,
+    "theta_high_hard_block": 0.85
+  },
+  "financial_optimization_benchmark": {
+    "optimal_4tier_net_utility_usd": -91.71726673939726,
+    "best_binary_baseline_net_utility_usd": 37.53772126005729,
+    "net_value_added_usd": -129.25498799945456,
+    "value_uplift_percentage": -344.3336027352058
+  },
+  "monte_carlo_stress_testing": {
+    "simulations_count": 300,
+    "mean_utility_multi_action_usd": -387.3352489007326,
+    "std_utility_multi_action_usd": 190.25362257038628,
+    "win_rate_over_binary_pct": 21.666666666666668
+  },
+  "merchant_category_adaptation": [
+    {
+      "Merchant_Category": "MCC_5411_Grocery_Supermarkets",
+      "Risk_Multiplier_Gamma": 1.4,
+      "Adapted_Theta_Low": 0.406,
+      "Adapted_Theta_Mid": 0.96,
+      "Adapted_Theta_High": 0.99,
+      "Net_Utility": 115.02,
+      "Frictionless_Approve_%": 99.0,
+      "StepUp_2FA_%": 0.89,
+      "Hard_Block_%": 0.08
+    },
+    {
+      "Merchant_Category": "MCC_4900_Utilities_Electric_Gas",
+      "Risk_Multiplier_Gamma": 1.3,
+      "Adapted_Theta_Low": 0.377,
+      "Adapted_Theta_Mid": 0.96,
+      "Adapted_Theta_High": 0.99,
+      "Net_Utility": 89.03,
+      "Frictionless_Approve_%": 98.93,
+      "StepUp_2FA_%": 0.96,
+      "Hard_Block_%": 0.08
+    },
+    {
+      "Merchant_Category": "MCC_5732_Electronics_Stores",
+      "Risk_Multiplier_Gamma": 0.95,
+      "Adapted_Theta_Low": 0.275,
+      "Adapted_Theta_Mid": 0.76,
+      "Adapted_Theta_High": 0.81,
+      "Net_Utility": -125.7,
+      "Frictionless_Approve_%": 98.46,
+      "StepUp_2FA_%": 1.24,
+      "Hard_Block_%": 0.23
+    },
+    {
+      "Merchant_Category": "MCC_7995_Gaming_Betting",
+      "Risk_Multiplier_Gamma": 0.7,
+      "Adapted_Theta_Low": 0.203,
+      "Adapted_Theta_Mid": 0.56,
+      "Adapted_Theta_High": 0.61,
+      "Net_Utility": -338.37,
+      "Frictionless_Approve_%": 97.72,
+      "StepUp_2FA_%": 1.69,
+      "Hard_Block_%": 0.52
+    },
+    {
+      "Merchant_Category": "MCC_6051_Crypto_Quasi_Cash",
+      "Risk_Multiplier_Gamma": 0.5,
+      "Adapted_Theta_Low": 0.145,
+      "Adapted_Theta_Mid": 0.4,
+      "Adapted_Theta_High": 0.45,
+      "Net_Utility": -917.71,
+      "Frictionless_Approve_%": 96.35,
+      "StepUp_2FA_%": 2.63,
+      "Hard_Block_%": 0.78
+    }
+  ],
+  "sample_actionable_recourse_case": {
+    "status": "Recourse Found",
+    "original_p": 0.34041,
+    "counterfactual_p": 0.2495,
+    "modifications": {
+      "Time": {
+        "original_value": 1.7838,
+        "counterfactual_value": 0.2625,
+        "delta": -1.5213
+      },
+      "V1": {
+        "original_value": -0.3454,
+        "counterfactual_value": 0.7441,
+        "delta": 1.0895
+      },
+      "V3": {
+        "original_value": -1.2216,
+        "counterfactual_value": 2.2944,
+        "delta": 3.516
+      }
+    }
+  }
+}

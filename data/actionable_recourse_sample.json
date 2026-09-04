@@ -1,0 +1,22 @@
+{
+  "status": "Recourse Found",
+  "original_p": 0.34041,
+  "counterfactual_p": 0.2495,
+  "modifications": {
+    "Time": {
+      "original_value": 1.7838,
+      "counterfactual_value": 0.2625,
+      "delta": -1.5213
+    },
+    "V1": {
+      "original_value": -0.3454,
+      "counterfactual_value": 0.7441,
+      "delta": 1.0895
+    },
+    "V3": {
+      "original_value": -1.2216,
+      "counterfactual_value": 2.2944,
+      "delta": 3.516
+    }
+  }
+}
