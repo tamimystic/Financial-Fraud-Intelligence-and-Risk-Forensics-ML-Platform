@@ -1,0 +1,35 @@
+{
+  "platform": "Enterprise Financial Risk Intelligence & Fraud Forensics",
+  "notebook": "12_Ensemble_Stacking_and_Cost_Optimal_Thresholding.ipynb",
+  "timestamp": "2026-09-04T06:47:15Z",
+  "level_0_base_models": [
+    "LightGBM",
+    "XGBoost",
+    "CatBoost",
+    "RandomForest",
+    "ExtraTrees",
+    "HistGradientBoosting",
+    "LogisticRegression"
+  ],
+  "meta_learner": "Stacking Logistic Regression (L2 Regularized)",
+  "optimal_decision_threshold": 0.25871859296482413,
+  "cost_parameters": {
+    "chargeback_loss_fee": 25.0,
+    "analyst_review_cost": 15.0,
+    "customer_friction_insult_penalty": 50.0
+  },
+  "performance_benchmarks": {
+    "ensemble_oot_prauc": 0.766387101006721,
+    "ensemble_oot_rocauc": 0.9832831569649005,
+    "ensemble_brier_score": 0.0003768938447169896,
+    "optimal_policy_total_loss": 3607.4,
+    "default_policy_total_loss": 3681.02,
+    "uncaught_exposure_total_loss": 7468.880000000001,
+    "dollar_savings_over_default": 73.61999999999989
+  },
+  "inference_latency_sla": {
+    "p50_ms": 40.60985000069195,
+    "p95_ms": 42.580885000006674,
+    "p99_ms": 47.95733700100755
+  }
+}
