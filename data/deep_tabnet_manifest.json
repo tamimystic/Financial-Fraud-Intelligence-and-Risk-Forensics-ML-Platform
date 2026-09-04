@@ -1,0 +1,37 @@
+{
+  "platform": "Enterprise Financial Risk Intelligence & Fraud Forensics",
+  "notebook": "15_Deep_Tabular_Representation_TabNet_Architecture.ipynb",
+  "timestamp": "2026-09-04T08:25:14Z",
+  "architecture_specifications": {
+    "input_dimensions": 53,
+    "n_d": 16,
+    "n_a": 16,
+    "n_steps": 3,
+    "gamma_relaxation": 1.3,
+    "sparsity_lambda": 0.001,
+    "batch_size": 512,
+    "epochs": 12
+  },
+  "performance_benchmarks": {
+    "tabnet_oot_prauc": 0.7249727376818481,
+    "tabnet_oot_rocauc": 0.9267337888265941,
+    "tabnet_brier_score": 0.002757866927838654,
+    "resnet_oot_prauc": 0.7326358560935234,
+    "resnet_oot_rocauc": 0.94254925997368
+  },
+  "top_forensic_features": [
+    "V3",
+    "Hour_of_Day",
+    "V25",
+    "V22",
+    "Time",
+    "Time_Cos",
+    "iForest_Anomaly_Score",
+    "V17_Squared",
+    "V20",
+    "V14_x_V17"
+  ],
+  "model_artifacts": {
+    "pytorch_weights_file": "..\\models\\deep_tabnet_fraud_model.pt"
+  }
+}
