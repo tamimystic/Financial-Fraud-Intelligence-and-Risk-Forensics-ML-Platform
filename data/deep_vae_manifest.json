@@ -1,0 +1,37 @@
+{
+  "platform": "Enterprise Financial Risk Intelligence & Fraud Forensics",
+  "notebook": "14_Deep_Learning_Variational_Autoencoders_Anomaly_Architecture.ipynb",
+  "timestamp": "2026-09-04T07:11:48Z",
+  "architecture_specifications": {
+    "input_dimensions": 53,
+    "latent_dimensions": 8,
+    "encoder_layers": [
+      53,
+      32,
+      16,
+      8
+    ],
+    "decoder_layers": [
+      8,
+      16,
+      32,
+      53
+    ],
+    "activation_functions": "LeakyReLU(0.2) + BatchNorm1d",
+    "training_epochs": 15,
+    "batch_size": 256
+  },
+  "performance_benchmarks": {
+    "unsupervised_vae_prauc": 0.3166502419601564,
+    "unsupervised_vae_rocauc": 0.9342259919597626,
+    "unsupervised_vae_recall_at_1pct": 76.92307692307693,
+    "unsupervised_ae_prauc": 0.34311170389234774,
+    "unsupervised_ae_rocauc": 0.9606515116006562,
+    "hybrid_latent_gbdt_prauc": 0.008553829579089442,
+    "hybrid_latent_gbdt_rocauc": 0.7630095004596997,
+    "hybrid_latent_gbdt_recall_at_1pct": 11.538461538461538
+  },
+  "model_artifacts": {
+    "pytorch_weights_file": "..\\models\\deep_vae_anomaly_model.pt"
+  }
+}
